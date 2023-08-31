@@ -17,7 +17,7 @@ __Steps taken:__
 - Model Setup
   - retrieve XGBoost Image
   - define hyperparameters and output path
-  - define model parameters and resources
+  - define model parameters and training resources
 - Train Model
 - Model Evaluation
   - Deploy model to server and create endpoint
