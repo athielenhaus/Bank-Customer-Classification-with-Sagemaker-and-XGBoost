@@ -41,5 +41,5 @@ The primary learnings from this project included:
 Using the boto3 SDK, the model creation, deployment etc. with AWS seems pretty straightforward. What was surprising to me is the amount of time required for starting / stopping notebook instances and starting model training. On the other hand, model training can of course be completed much faster due to the additional compute power.
 
 #### Next Steps
-Additional avenues which would be interesting to pursue include methods for Hyperparameter tuning as well as other tools provided by AWS Sagemaker and Sagemaker studio.
+Additional avenues which would be interesting to pursue include methods for Hyperparameter tuning as well as other tools provided by AWS Sagemaker and Sagemaker studio for model debugging and optimization.
 
