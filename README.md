@@ -6,6 +6,24 @@ In this mini-project we used a sample dataset provided by AWS, which contains 60
 
 The objective was to use __AWS Sagemaker__ to create an XGBoost Model which can effectively predict whether customers enrolled for the bank product.
 
+__Steps taken:__
+- Preparation
+  - Launch AWS Sagemaker Notebook Instance
+  - Create S3 bucket
+  - Load dataset from AWS
+  - Format data in accordance with Sagemaker requirements
+- Basic EDA
+- Split data, define training inputs and store in S3
+- Model Setup
+  - retrieve XGBoost Image
+  - define hyperparameters and output path
+  - define model parameters and resources
+- Train Model
+- Model Evaluation
+  - Deploy model to server and create endpoint
+  - Use model to make predictions and get accuracy score
+- Clean-up: delete and / or deactivate utilized AWS resources
+
 ### Model Performance
 
 Using the XGBoost Classifier, we were able to achieve the following performance:  
