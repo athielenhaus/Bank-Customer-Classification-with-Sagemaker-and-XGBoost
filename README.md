@@ -33,7 +33,7 @@ As the primary objective was to gain an understanding of the basic workings of A
 ### Learnings from Project
 
 The primary learnings from this project included:
-- creation of XGBoost model using AWS container and EC2 instances including evaluation of instant types (memory- vs compute-bound)
+- creation of XGBoost model using AWS container and EC2 instances including comparison of instance types (memory- vs compute-bound)
 - storage and uploading of inputs and outputs in S3
 - creation of model endpoint which can be used for prediction purposes
 - cleanup, i.e. shutting down of AWS artifacts / resources when they are not being used
