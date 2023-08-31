@@ -9,7 +9,7 @@ The objective was to use __AWS Sagemaker__ to create an XGBoost Model which can 
 __Steps taken:__
 - Preparation
   - Launch AWS Sagemaker Notebook Instance
-  - Create S3 bucket
+  - Create S3 bucket for storing data and artefacts
   - Load dataset from AWS
   - Format data in accordance with Sagemaker requirements
 - Basic EDA
