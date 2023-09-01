@@ -10,16 +10,14 @@ __Steps taken:__
 - Preparation
   - Launch AWS Sagemaker Notebook Instance
   - Create S3 bucket for storing data and artefacts
-  - Load dataset from AWS
-  - Format data in accordance with Sagemaker requirements
+  - Load dataset from AWS and format in accordance with Sagemaker requirements
 - Basic EDA
 - Split data, define training inputs and store in S3
-- Model Setup
+- Model setup
   - retrieve XGBoost Image
-  - define hyperparameters and output path
-  - define model parameters and training resources
-- Train Model
-- Model Evaluation
+  - define model parameters, hyperparameters and training resources
+- Train model
+- Evaluate model
   - Deploy model to server and create endpoint
   - Use model to make predictions and get accuracy score
 - Clean-up: delete and / or deactivate utilized AWS resources
